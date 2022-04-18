@@ -1,4 +1,6 @@
 # Exchange Rate Telegram Bot
+Telegram bot helps you quickly find the dollar exchange rate. There is a currency converter for convenience.
+
 This project is created by technologies like:
 - Java
 - [Spring Boot](https://github.com/spring-projects/spring-boot)

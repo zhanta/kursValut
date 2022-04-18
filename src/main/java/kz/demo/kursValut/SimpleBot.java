@@ -14,7 +14,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 
 public class SimpleBot extends TelegramLongPollingBot {
-    String curApi = "https://v6.exchangerate-api.com/v6/b4731054a5d115d6243db615/latest/USD";
+    String curApi = "https://v6.exchangerate-api.com/v6/{Here write your api token or replace with other}/latest/USD";
     String botUserName = ""; // add here your botusername
     String botToken = ""; // Add here your token
     int numChecker = 0;

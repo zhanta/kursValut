@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import org.json.JSONException;
-import org.springframework.beans.factory.annotation.Value;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.ParseMode;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -15,7 +14,6 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 
 public class SimpleBot extends TelegramLongPollingBot {
-    private String curApi = "https://v6.exchangerate-api.com/v6/b4731054a5d115d6243db615/latest/USD";
     private String botUserName = "valutKursBot"; // add here your botusername
     private String botToken = "5336957855:AAE7krT-1en2Js-0hz_6zjR6uJnZzMDS2m0"; // Add here your token
     int numChecker = 0;

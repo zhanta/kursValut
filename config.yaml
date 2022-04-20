@@ -1,0 +1,3 @@
+log-level: ERROR
+modules:
+  - kz.demo.kursValut.KursValutApplication

@@ -1,0 +1,5 @@
+bot:
+  BOT_TOKEN: 5336957855:AAE7krT-1en2Js-0hz_6zjR6uJnZzMDS2m0
+  BOT_USERNAME: valutKursBot
+server:
+  PORT: 8080
